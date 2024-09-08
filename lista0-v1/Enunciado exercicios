@@ -1,0 +1,49 @@
+LISTA DE EXERCÍCIOS - COMPUTAÇÃO 1
+Exercícios usando somente comando printf
+1) Faça um programa para imprimir uma data no formato “dd/mm/aaaa”. Supondo que
+o dia tenha valor 6, mês valor 6 e ano valor 2016, a saída esperada é a seguinte:
+data: 6/6/2016
+Obs: declare 3 variáveis do tipo inteiro, uma para cada valor.
+2) Faça um programa para imprimir seu nome e sua data de nascimento, por exemplo:
+Nome: João da Silva
+Data de nascimento: 1/1/1980
+Obs: não é necessário declarar variáveis.
+3) Faça um programa que a partir do ano do seu nascimento informado via código é
+capaz de apresentar a sua idade. Exemplo:
+Olá, sua idade é 23 anos
+4) Escreva um programa para calcular a área e o perímetro de um retângulo a partir de
+valores de altura e largura fornecidos via código. Exemplo:
+Perímetro do retângulo: 14
+Área do retângulo: 10
+5) Escreva um programa que receba dois valores numéricos fornecidos via código e
+calcule as quatro operações básicas: soma, subtração, divisão e módulo.
+Perímetro do retângulo: 14
+Área do retângulo: 10
+Exercícios usando os comandos printf e scanf
+6) Escreva um programa para informar uma hora no formato HH:MM:SS. Exemplo:
+Informe a hora: 14
+Informe o minuto: 1
+Informe o segundo: 12
+O horário informado é 14:1:12
+7) Escreva um programa para imprimir um caractere informado pelo usuário. Exemplo:
+Informe um caractere: r
+O caractere informado foi r.
+8) Escreva um programa para calcular a área de um triâgulo a partir de valores de base
+e altura fornecidos pelo usuário. Exemplo:
+Informe o valor da base: 5
+Informe o valor da altura: 6
+A área do retângulo é 15.
+Exercícios usando os comandos printf, scanf e if
+9) Escreva um programa que a partir de um número informado pelo usuário informa se
+esse número é positivo ou negativo. Exemplo:
+Informe um número: -10
+O número informado é negativo
+10) O retângulo é definido como uma figura geométrica plana que possui os lados
+opostos paralelos entre si e seus ângulos internos são todos congruentes. Um
+quadrado é um caso especial de retângulo. É um retângulo onde os seus lados têm
+sempre a mesma medida. Escreva um programa que a partir de dois números
+decimais informados pelo usuário identifica se a figura geométrica em questão se
+trata de um retângulo ou um quadrado. Exemplo:
+Informe o comprimento: 10
+Informe a altura: 12
+A Figura se trata de um retângulo
