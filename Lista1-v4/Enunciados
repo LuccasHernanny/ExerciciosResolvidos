@@ -1,0 +1,150 @@
+1. Defina Algoritmo e forneça exemplos.
+2. Defina linguagem compilada e linguagem interpretada. Quais as vantagens e
+desvantagens? Forneça exemplos.
+3. Explique o processo de compilação.
+4. O que são variáveis e tipo de dados? Quais são os tipos de dados disponíveis na
+linguagem C?
+5. Quais são os elementos principais da Arquitetura de Von Neumann e qual a relação entre
+eles.
+6. Quais das seguintes variáveis são válidas em C:
+a) 1 o linguagemC
+b) _progRAMA
+c) 2015
+d) float
+e) float4
+f) UTFPR 2015
+g) primeiro_Nome_Do_Aluno
+7. Quais das declarações de variáveis estão corretas em C?
+a) int num_casa == 2;
+b) double pi = 3.14;
+c) main char <- "José".
+d) Lucas int = nome;;
+e) float 18.50 = altura_predio!
+8. O que acontece ao compilar através da linha de comando o programa abaixo? Por que
+isso acontece? Como é possível corrigir?
+#include <stdioh>;
+void Main(){
+printf(“ola”)
+}
+9. Escreva um algoritmo para somar 3 números informados pelo usuário através do console
+(ou seja, usando a função scanf()) e apresente o resultado no console usando a função
+printf() da seguinte forma:
+A soma dos números X + Y + Z = K
+Obs: no lugar das letras X, Y, Z e K deverão estar os números.
+10. Escreva um algoritmo para apresentar a média de quatro notas de um aluno fornecidas
+através do console da seguinte forma:
+Informe a primeira nota:
+Informe a segunda nota:
+Informe a terceira nota:
+Informe a quarta nota:
+Sua média é:
+11. O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e
+obesidade. É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros), da
+seguinte forma: IMC = Peso ÷ (Altura × Altura). Escreva um algoritmo para apresentar o
+IMC dado o peso e a altura do indivíduo informados via console. Por exemplo:
+Informe o seu peso:
+Informe a sua altura:
+o seu IMC é de:
+12. Sendo P, Q e R variáveis de tipo inteiro, com valores iguais a 2, 3 e 12, respectivamente, e
+uma variável real S, com valor de 4.5, quais os valores fornecidos por cada uma das
+expressões aritméticas abaixo? Considere a execução das expressões em linguagem C.
+a) (int)(100 * Q) / P + R
+b) S % (P - 1) - Q * R
+c) P * R % 5 - Q / 2
+d) 1 + sqrt( pow(P, 3) + 3 * R + 5)
+e) 1 + (int)((R + P) / pow (Q, 2))
+f) sqrt(sqrt(16)) * pow(2, 3)
+13. Considere as seguintes atribuições, R = 2, S = 5, T = -1, X = - 3, Y = -1 e Z = 0, resolver as
+expressões abaixo. Considere a execução das expressões em linguagem C.
+a) (R >=5) || (T > Z) && (X - Y + R > 3 * Z)
+b) (T + 3 >= 4) && !(3 * R/2 < S * 3)
+c) (X == 2) || (Y = 1) && ((Z == 0) || (R > 3) && (S < 10)
+d) (R != S) || !(sqrt(R) < sqrt(X)) && (8327 * X * S * Z == 0)
+14. Elabore um algoritmo para calcular o novo salário de um funcionário. Sabe-se que os
+funcionário que possuem salário atual até R$ 500,00 terão aumento de 20%, e os demais
+terão aumento de 10%. Represente o algoritmo em fluxograma e o implemente em
+linguagem C.
+15. Escreva um algoritmo que informa 1 se o número é par ou 0 se o número é impar (não é
+necessário usar o comando se). Implemente em linguagem C (observação: pesquise sobre
+o operador módulo).
+16. Calcular a média final dos alunos da 3 a Série. Os alunos realizarão quatro provas: P1, P2,
+P3 e P4. A nota final NF é calculada pela média aritmética das provas. Se a nota final do
+aluno for maior ou igual a 6.0 o aluno está aprovado. Caso contrário, permita ao aluno
+fazer uma prova extra PE. A nova nota será a média da nota final com a prova extra. Exiba
+se o aluno está aprovado ou reprovado após realizar a PE. Represente o programa em
+fluxograma e o implemente em linguagem C.
+17. Escreva um programa que calcula a área e o comprimento de um círculo. Considere que o
+usuário informa o valor do raio com casas decimais. Sugestão: use o valor de PI como
+uma constante. A saída deverá ser apresentada da seguinte forma:
+Comprimento do círculo é: xx
+Área do círculo é: xx
+18. Faça um programa que receba como dados uma determinada hora e minuto de um usuário
+e imprima a frase “Agora são exatamente” seguida dos dados no formato convencional de
+horário “horas:minutos”.
+19. Faça um programa que recebe um valor em segundos de um usuário e imprima a frase:
+“Agora são exatamente” seguida da hora no formato “horas:minutos:segundos”.
+20. Faça um programa que leia a idade do usuário e imprima a idade da seguinte forma: “A
+sua idade é: ”. Não se esqueça de quebrar uma linha no ato de impressão.
+21. Faça um programa que leia o dia, mês e ano inserido por um usuário e imprima os dados
+no formato convencional brasileiro de data “dia/mês/ano”.
+22. Faça um programa que dada uma constante PI definida com o valor
+3,14159265358979323846, imprima essa constante com apenas quatro casas decimais.
+23. Escreva um programa que recebe o primeiro nome de um aluno, o seu registro acadêmico,
+o nome simples de uma matéria e três notas dessa matéria. No final o programa informa a
+seguinte mensagem: “O Aluno <nome do aluno> Ra <ra> teve nota <nota1>, <nota2> e
+<nota3> na matéria <nome da matéria> e sua nota final é: <média das notas>”.
+24. Fazer um programa que, mediante a leitura de uma distância (em Km), do período de
+tempo (em hora) utilizado para percorrê-lo e da quantidade de combustível (em litros)
+utilizada, calcule a velocidade média(em Km/h) e o consumo médio do automóvel (em
+Km/l).
+25. Escreva um programa que dado um caracter informa o seu código ASCII em inteiro. Por
+exemplo:
+Digite um caracter: A
+O inteiro relacionado ao caracter acima é: 65
+26. Escreva um algoritmo que leia três valores inteiros e diferentes e mostre-os em ordem
+decrescente. Utilize para tal uma seleção encadeada (seleção encadeada é tratada no
+capítulo 3 do livro do Forbellone).
+27. Elaborar um programa para ler 4 números inteiros (a, b, c e d) e realizar os seguintes
+cálculos:
+28. Desenvolva uma algoritmo que calcule as raízes de uma equação do 2o grau, na forma Ax2
++ Bx + C, levando em consideração a existência de raízes reais.
+29. Tendo como dados de entrada a altura e o sexo de uma pessoa, construa um algoritmo
+que calcule o seu peso ideal, utilizando as seguintes fórmulas:
+1. para homens: (72.7 * h) – 58;
+2. para mulheres: (62.1 * h) – 44.7.
+30. Faça um algoritmo que leia o ano de nascimento de uma pessoa. Calcule e mostre sua
+idade e também verifique e mostre se ela já tem idade para votar (16 anos ou mais) e para
+conseguir carteira de habilitação (18 anos ou mais).
+31. Elabore um algoritmo que leia o valor de dois números inteiros e a operação aritmética
+desejada. Calcule então a resposta adequada. Utilize os símbolos da tabela a seguir para
+ler qual a operação aritmética escolhida:
++ Adição
+- Subtração
+* Multiplicação
+/ Divisão
+32. Elabore um algoritmo que, a partir de um dia, mês e ano fornecidos, valide se eles compõe
+uma data válida. Não deixe de considerar os meses com 30 ou 31 dias, e o tratamento de
+ano bissexto.
+33. Elaborar um programa que determine o número de dias que a pessoa já viveu.
+Considerando que um mês tem 30 dias e que a pessoa informa a quantidade de anos
+completos.
+34. Diga o resultado das variáveis x, y e z depois da seguinte sequência de operações:
+int x,y,z;
+x=y=10;
+z=++x;
+x=-x;
+y++;
+x=x+y-(z--);
+35. Construa um algoritmo que calcule e escreva o custo e a quantidade de latas de tinta
+necessárias para pintar tanques cilíndricos de combustível. É fornecida as seguintes
+informações: o preço da lata de 5 litros, o raio e a altura dos tanques cilíndricos. Cada litro
+de tinta pinta 3 metros quadrados.
+36. Construa um algoritmo que, tendo como dados de entrada dois pontos quaisquer do plano,
+P(xA, yA) e Q(xB, yB), imprima a distância entre eles.
+37. Elabore um algoritmo que, dada a idade de um nadador, classifique-o em um das
+seguintes categorias:
+- 5 a 7 → INFANTIL A
+- 8 até 10 → INFANTIL B
+- 11 até 13 → JUVENIL A
+- 14 até 17 → JUVENIL B
+- Maiores de 18 → ADULTO
