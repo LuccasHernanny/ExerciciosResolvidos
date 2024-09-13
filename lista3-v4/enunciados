@@ -1,0 +1,54 @@
+1. Elaborar um programa que leia 2 valores inteiros. Codifique uma função para realizar a
+soma dos mesmos e crie um procedimento (função sem retorno) para imprimir o resultado.
+2. Elaborar um programa que leia 2 valores inteiros. Crie e um procedimento para escrever a
+diferença entre eles.
+3. Elaborar um programa que leia um número real. Além disso, desenvolva uma função sem
+retorno para calcular e imprimir o resultado do quadrado desse número.
+4. Elaborar uma função para calcular a distância entre dois pontos. Considerando que o
+ponto A, tem coordenadas A(x1 , y1) e o ponto B coordenadas B(x2 , y2). A distância entre
+dois pontos é representada no plano cartesiano pela seguinte fórmula:
+5. Elaborar uma função para converter uma temperatura em graus Kelvin para graus Celsius.
+6. Elaborar uma função para converter uma temperatura em graus Celsius para graus Kelvin.
+7. Para um consórcio, sabe-se o número total de prestações, a quantidade de prestações
+pagas e o valor atual das prestações. Elaborar um procedimento para determinar o total
+pago pelo consorciado e o saldo devedor. O total pago e o saldo devedor também serão
+parâmetros do procedimento, mas serão passados por referência. Chame
+adequadamente o procedimento na função main().
+8. O custo ao consumidor de um carro novo é a soma do custo de fábrica com a
+percentagem de lucro do revendedor e com o custo dos impostos (aplicados ao custo de
+fábrica). Suponha que a percentagem do revendedor seja 25% e que os impostos custam
+45% do custo de fábrica. Elaborar uma função sem retorno para determinar o preço final
+do automóvel (custo ao consumidor). O preço final também é um parâmetro da função.
+Utilize passagem de parâmetro por referência para conhecer o preço final no corpo da
+função main().
+9. Elaborar um programa para ler as variáveis a, b, c e d a partir do console. As variáveis são
+do tipo real (ou seja, devem lidar adequadamente com números decimais). Determinar as
+seguintes médias aritméticas, harmônicas, geométricas e quadráticas, conforme fórmulas
+gerais apresentadas abaixo. Utilize um procedimento para calcular cada uma das médias.
+Cada procedimento deve usar passagem de parâmetro por referência. Nas fórmulas o
+valor de n se refere a quantidade de termos, portanto usar 4.
+10. Crie um procedimento para trocar os valores de duas variáveis inteiras. Suponha que a =
+20 e b = 10. Após chamar o procedimento os valores de a e b serão 10 e 20,
+respectivamente. Nesse exercício você usaria passagem de valor por referência ou por
+valor? Justifique.
+11. Crie uma função para retornar o maior número entre 3 recebidos. Exemplo:
+int maior(int a, int b, int c);
+12. Elabore uma função que dada um caracter da tabela ASCII recebido com parâmetro da
+função retorna o seu valor inteiro;
+13. Elabore uma função que recebe uma caracter minúsculo do alfabeto e retorna o
+correspondente maiúsculo.
+14. Deseja-se um procedimento que recebe 3 valores numéricos como parâmetro, como por
+exemplo, x=40, y=20 e z=30. Após executar o procedimento, o menor valor estará em x, o
+menor em y e o maior em z. Ou seja, ordena os números em ordem crescente: x=20, y=30
+e z=40.
+15. Arranjo são as combinações possíveis de um sub-grupo de dado grupo, onde a ordem dos
+elementos é levada em conta. Exemplo: seja uma corrida com 5 competidores. De quantas
+maneiras podemos ter os 3 primeiros colocados? Temos 5 possibilidades para o primeiro
+colocado, 4 possibilidades para o segundo e 3 possibilidades para o terceiro. Assim, a
+resposta é 5x4x3 = 60. A fórmula do arranjo é: A(n,p) = n! / (n-p)!
+Onde n é o total de elementos do conjunto e p o total de elementos do sub-conjunto.
+Exemplos: Arranjo(6,2) = 6x5 = 30; Arranjo(8,4) = 8x7x6x5 = 1680. Veja que para calcular
+o arranjo, é necessário resolver o fatorial.
+a) Crie uma função para resolver o fatorial;
+b) Crie uma função para calcular o arranjo. Essa função deve invocar a função
+fatorial.
