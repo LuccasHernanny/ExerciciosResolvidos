@@ -1,0 +1,92 @@
+1. Escreva um programa que solicite ao usuário um número e exiba os números
+pares de 1 até esse número.
+2. Escreva um programa que solicite ao usuário um número e exiba a soma dos
+números de 1 até esse número.
+3. Desenvolver um algoritmo que efetue a soma de todos os números ímpares no
+intervalo entre 0 e 1000.
+4. Desenvolver um algoritmo que efetue a soma de todos os números ímpares que
+são múltiplos de três e que se encontram no conjunto dos números de 1 até 500.
+5. Desenvolver um algoritmo que leia um número de valores informados via console
+pelo usuário e calcule e escreva a média aritmética dos valores lidos, a quantidade
+de valores positivos, a quantidade de valores negativos e o percentual de valores
+negativos e positivos.
+6. Escrever um algoritmo que leia uma quantidade desconhecida de números e conte
+quantos deles estão nos seguintes intervalos: [0-25], [26-50], [51-75] e [76-100]. A
+entrada de dados deve terminar quando for lido um número negativo.
+7. Escreva um programa que dado um intervalo numérico A e B, onde A e B são
+inteiros positivos, informe quais são e quantos são os múltiplos de 7.
+8. Escreva um programa que dado um intervalo numérico A e B, onde A e B são
+inteiros positivos, informe quais são e quantos são os múltiplos de um número
+inteiro informado pelo usuário.
+9. Escreva um programa onde a diferença entre dois números corresponde a um
+caracter da tabela ASCII. Os dois números são digitados pelo usuário. Importante
+destacar que o programa somente calcula a diferença caso o primeiro número seja
+maior que o segundo. Além disso, caso o resultado da diferença seja um dos
+caracteres não imprimíveis na tabela ASCII a mensagem exibida deve ser
+“caractere não imprimível”. Por exemplo, 13 representa o ENTER e, portanto, não é
+um caractere que possa ser exibido. Veja que a primeira coluna da Figura abaixo
+apresenta os caracteres não imprimíveis enquanto a segunda coluna os caracteres
+que são impressos.
+10. Ainda no contexto da tabela ASCII, escreva um programa para apresentar
+para o usuário os caracteres imprimíveis dentro de um intervalo a e b, onde a < b.
+Por exemplo, ao informar o intervalo 60 e 65, os caracteres <, =, >, ?, @ e A, são
+apresentados.
+11. Em uma eleição presidencial existem quatro candidatos. Os votos são informados
+através de códigos. Os dados utilizados para a contagem dos votos obedecem à
+seguinte codificação:
+a) 1,2,3,4 = voto para os respectivos candidatos;
+b) 5 = voto nulo;
+c) 6 = voto em branco;
+Elabore um algoritmo que leia o código do candidato em um voto. Calcule e
+escreva:
+* Total de votos para cada candidato;
+* Total de votos nulos;
+* Total de votos em branco;
+O programa encerra e apresenta os totais após o código 0 ser pressionado.
+12. Sendo H = 1 + ½ + 1/3 + ¼ + … + 1/N, escreva um algoritmo para gerar o número
+H. O número N é fornecido pelo usuário.
+13. Construa um algoritmo que calcule se um número fornecido pelo usuário é primo
+ou não.
+14. Elabore um algoritmo que calcule N! (fatorial de N) usando um laço while, sendo
+que o valor inteiro de N é fornecido pelo usuário. Sabendo que:
+a) N! = 1 * 2 * 3 *...* (N-1) * N;
+b) 0! = 1, por definição.
+15. Elabore um algoritmo que calcule N! (fatorial de N) usando um laço do-while,
+sendo que o valor inteiro de N é fornecido pelo usuário. Sabendo que:
+a) N! = 1 * 2 * 3 *...* (N-1) * N;
+b) 0! = 1, por definição.
+16. Elabore um algoritmo que calcule N! (fatorial de N) usando um laço for, sendo que
+o valor inteiro de N é fornecido pelo usuário. Sabendo que:
+a) N! = 1 * 2 * 3 *...* (N-1) * N;
+b) 0! = 1, por definição.
+17. A série de Fibonacci é formada pela seguinte sequência: 1, 1, 2, 3, 5, 8, 13, 21, 34,
+55… etc. Escreva um algoritmo que gere a série de Fibonacci até um número N,
+informado pelo usuário, onde N é quantidade de números na série.
+18.Os números perfeitos são iguais à soma de seus divisores: 6 pode ser dividido
+por 1, 2 e 3 e, quando você soma esses números, o resultado é 6. A história dos
+números perfeitos faz parte de um dos ramos mais antigos e fascinantes da
+matemática: a teoria dos números. Escreva um algoritmo para descobrir se um
+número informado pelo usuário é ou não perfeito.
+19. Escreva um algoritmo que leia um conjunto de N números, onde N é uma
+constante no código, e mostre qual foi o maior e o menor valor fornecido.
+20. Elabore um algoritmo que obtenha o mínimo múltiplo comum (MMC) entre dois
+números fornecidos.
+21. Elabore um algoritmo que obtenha o máximo divisor comum (MDC) entre dois
+números fornecidos.
+22. Faça um algoritmo que seja capaz de obter o quociente inteiro da divisão de dois
+números fornecidos, sem utilizar a operação de divisão (/).
+23. A conversão de graus Fahrenheit para centígrado é obtida pela fórmula C= 5/9(F-
+32). Escreva um algoritmo que calcule e escreva uma tabela de graus centígrados
+em função de graus Fahrenheit que variem de 50 a 150 de 1 em 1.
+24.Escreva um algoritmo que lê uma base e um expoente e calcula a potência usando
+multiplicações sucessivas. Por exemplo, a base 2 com expoente 5 é igual a 32. Não
+use funções da biblioteca math.h.
+25.Considere que uma calculadora comum, de quatro operações, está com as teclas
+de divisão e multiplicação inoperantes. Codifique algoritmos que resolvam
+expressões matemáticas a seguir usando apenas operações de adição e subtração.
+Se preferir divida a solução em dois algoritmos, uma para a multiplicação e outro
+para a divisão. Em ambos o usuário informa o primeiro e o segundo número.
+12 x 4
+23 x 11
+10 / 2
+175 / 7
